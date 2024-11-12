@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh;
+  font-family: 'Lora', Georgia, serif;
+  color: #3A3A3A;
+  background-color: #F4F1EA;
+}
+
+#header {
+  height: 20vh;
+  background-color: #6B4226;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  padding: 0 1em;
+}
+
+#logo {
+  height: 60%;
+  margin-right: 0.8em;
+  left: 10vh;
+}
+
+#container {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+}
+
+#main {
+  width: 70vw;
+  background-color: #FFFFFF;
+  color: #3A3A3A;
+  padding: 2em;
+  font-size: 1.2em;
+  line-height: 1.6;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu {
+  width: 30vw;
+  background-color: #D3C6B1;
+  padding: 2em;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu li {
+  margin: 1em 0;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  background-color: #6B4226;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#menu a:hover {
+  background-color: #8C5A37;
+}
+
+#footer {
+  height: 10vh;
+  background-color: #8C5A37;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-family: 'Lora', Georgia, serif;
+}
